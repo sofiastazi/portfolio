@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofía Stazi - Portafolio Web</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.cdnfonts.com/css/the-aesthetic-essential?styles=139691" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/98cde3e220.js" crossorigin="anonymous"></script>
+    <script src="./JS/script.js"></script>
+    <link rel="icon" type="image/png" href="./img/estrella.png">
+  </head>
+  <body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <i class="fa-solid fa-splotch fa-xl" onclick="estrellitas()" title="Cliquéame :)" id="estrella"></i>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Portafolio - Sofía Stazi</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#sobremi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#contacto">Contáctame</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="inicio">
+    <h1 id="titulo">Sofía Stazi</h1>
+    <h2 id="subtitulo">Estudiante de Desarrollo Web y Marketing</h2>
+  </div>
+  
+  <div class="margen-para-secciones oscuro" id="sobremi">
+    <img src="./img/code.jpg" alt="...">
+    <h3><i class="fa-solid fa-person icon-margin"></i> Sobre mí</h3>
+    <p>
+      ¡Hola! Soy Sofía Stazi, resido en Cerro Largo, Uruguay y estoy estudiando Desarrollo Web en Jóvenes a Programar y Marketing en la UTU. Me encanta aprender cosas nuevas y disfruto de nuevos desafíos.
+    </p>
+    <p>
+      Me centro en el Front-End y me interesa el Diseño UX/UI.
+    </p>
+  </div>
+
+  <div class="margen-para-secciones container " id="habilidades">
+    <hr>
+    <div class="texto-centrado">
+      <i class="fa-solid fa-ranking-star"></i>
+      <h3>Habilidades técnicas</h3>
+    </div> 
+    <div class="row">
+      <div class="col-lg-6">
+        <ul>
+          <li><i class="fa-brands fa-html5"></i> HTML</li>
+          <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <ul>
+          <li><i class="fa-brands fa-js"></i> JavaScript</li>
+          <li><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>      
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <hr>
+        <div class="texto-centrado">
+          <i class="fa-solid fa-ranking-star"></i>
+          <h3>Habilidades blandas</h3>
+        </div>
+        <ul>
+          <li>Creatividad</li>
+          <li>Proactividad</li>
+          <li>Disciplina</li>
+          <li>Comunicación asertiva</li>
+          <li>Puntualidad</li>
+          <li>Resolución de problemas</li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <hr>
+        <div class="texto-centrado">
+          <i class="fa-solid fa-ranking-star"></i>
+          <h3>Idiomas</h3>
+        </div>
+        <ul>
+          <li>Español (Nativo)</li>
+          <li>Italiano (Nativo)</li>
+          <li>Inglés (Intermedio-B2)</li>
+          <li>Japonés (Básico-N5)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="margen-para-secciones" id="proyectos">
+    <hr>
+    <div class="texto-centrado icon-margin">
+      <i class="fa-solid fa-laptop-code fa-xl icon-margin"></i>
+      <h3 class="margenb">Mis proyectos</h3>
+    </div>
+    <div class="card texto-centrado border-dark" style="width: 18rem;">
+      <div class="card-body">
+        <img src="./img/verduro-pc.png" class="card-img" alt="Inicio de la página web 'Verduro'">
+        <h5 class="card-title">Verduro</h5>
+        <hr>
+        <p class="card-text">Esta es mi primera página web, creada como entrega final del curso "Yo Puedo Programar" de DESEM. Para crearla usé principalmente HTML, CSS y Bootstrap.</p>
+        <a href="https://sofiastazi.github.io/verduro" class="btn btn-dark" target="_blank" rel="noopener noreferred">Ir a la página</a>
+      </div>
+      </div>
+  </div>
+  
+  <div class="margen-para-secciones oscuro" id="contacto">
+    <div class="texto-centrado">
+      <i class="fa-solid fa-address-card fa-xl icon-margin" id="iconoContacto"></i>
+      <h3 class="margenb">Contáctame</h3>
+      <p>Puedes contactarme a través de:</p>
+      <div class="en-linea">
+        <div>
+          <a href="https://github.com/sofiastazi" target="_blank" rel="noopener noreferred" title="¡Click aquí para ver mi GitHub!"><i class="fa-brands fa-github fa-2xl icon-margin"></i></a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/sofia-stazi/" target="_blank" rel="noopener noreferred" title="¡Click aquí para ver mi LinkedIn!"><i class="fa-brands fa-linkedin fa-2xl icon-margin"></i></a>
+        </div>
+        <div>
+          <a href="mailto:sofia.stazi04@gmail.com" target="_blank" rel="noopener noreferred" title="¡Click aquí para mandarme un Mail!"><i class="fa-solid fa-envelope fa-2xl icon-margin"></i></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
