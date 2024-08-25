@@ -1,6 +1,6 @@
 @font-face {
     font-family: allright;
-    src: url(/font/allright/allright.ttf);
+    src: url('../font/allright/allright.ttf');
 }
 
 body {
