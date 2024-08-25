@@ -77,8 +77,7 @@ nav h5 {
 #sobremi img {
     width: 40vh;
     border-radius: 5px;
-    float: right;
-    margin: auto;
+    margin: 2%;
 }
 
 #habilidades li {
@@ -143,9 +142,6 @@ a i {
     }
     #sobremi p {
         font-size: 15px;
-    }
-    #sobremi img {
-        margin: 2%;
     }
     .contact-icon {
         font-size: 1.6rem;
