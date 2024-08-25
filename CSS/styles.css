@@ -74,14 +74,6 @@ nav h5 {
     color: whitesmoke;
 }
 
-#sobremi img {
-    width: 250px;
-    height: auto;
-    border-radius: 5px;
-    float: right;
-    margin: 20px;
-}
-
 #habilidades li {
     list-style: none;
     list-style-position: inside;
@@ -133,13 +125,18 @@ a i {
 }
 
 @media (max-width: 768px) {
+    #inicio {
+        height: 50vh;
+    }
     #titulo {
-        font-size: 80px; /* Tamaño de fuente reducido para tablets y móviles en horizontal */
+        font-size: 75px;
     }
     #subtitulo {
-        font-size: 18px; /* Tamaño de fuente reducido para tablets y móviles en horizontal */
+        font-size: 16px;
     }
-    
+    #sobremi p {
+        font-size: 15px;
+    }    
     .contact-icon {
         font-size: 1.6rem;
     }
