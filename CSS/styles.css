@@ -23,7 +23,7 @@ nav h5 {
     font-weight: bold;
 }
 
-#titulo {
+#title {
     font-family: allright;
     font-size: 100px;
     text-align: center;
@@ -32,7 +32,7 @@ nav h5 {
     margin-right: 4%;
 }
 
-#subtitulo {
+#subtitle {
     font-size: 22px;
     margin-top: 20px;
     text-align: center;
@@ -40,11 +40,11 @@ nav h5 {
     margin-right: 5%;
 }
 
-#habilidades h3 {
+#skills h3 {
     padding-bottom: 25px;
 }
 
-#inicio {
+#home {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,15 +52,15 @@ nav h5 {
     height: 100vh;
 }
 
-#estrella {
+#star {
     margin: 7px;
 }
 
-.margen-para-secciones {
+.section-margin {
     margin: 5%;
 }
 
-.oscuro {
+.dark {
     background-color: rgba(0, 0, 0);
     color: whitesmoke;
     padding: 35px;
@@ -70,11 +70,11 @@ nav h5 {
     width: 100%;
 }
 
-.oscuro i {
+.dark i {
     color: whitesmoke;
 }
 
-#habilidades li {
+#skills li {
     list-style: none;
     list-style-position: inside;
 }
@@ -87,7 +87,7 @@ nav h5 {
     margin-left: -2px;
 }
 
-#habilidades i, #habilidades p {
+#skills i, #skills p {
     font-size: 20px;
     padding: 10px;
 }
@@ -95,10 +95,6 @@ nav h5 {
 a i {
     color: black;
     padding: 20px;
-}
-
-.card {
-    margin: auto;
 }
 
 .card-title {
@@ -114,7 +110,7 @@ a i {
     background-color: transparent;
 }
 
-#contacto {
+#contact {
     margin-bottom: 0;
     padding-bottom: 30px;
     width: 100%;
@@ -125,16 +121,16 @@ a i {
 }
 
 @media (max-width: 768px) {
-    #inicio {
+    #home {
         height: 50vh;
     }
-    #titulo {
+    #title {
         font-size: 75px;
     }
-    #subtitulo {
+    #subtitle {
         font-size: 16px;
     }
-    #sobremi p {
+    #aboutme p {
         font-size: 15px;
     }    
     .contact-icon {
